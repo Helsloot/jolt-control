@@ -8,8 +8,7 @@ pipeline {
         }
         stage('Testing') {
             steps {
-                sh 'export PYTHONPATH="./src"'
-                sh 'python3 src/jolt/driver/test/driver_test.py'
+                sh 'export PYTHONPATH="./src" && python3 src/jolt/driver/test/driver_test.py'
             }
         }
     }
