@@ -1,5 +1,5 @@
 ![Delmic](./src/jolt/gui/img/delmic_logo.png  "Delmic")
-# Jolt Control
+# Jolt Control Stuff
 This repository contains the control software for Delmic's Jolt system.
 
 ## Getting Started
